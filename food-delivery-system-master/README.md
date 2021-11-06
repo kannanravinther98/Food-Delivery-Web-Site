@@ -6,3 +6,4 @@
 4. Go to browser and open up localhost/FoodDelivery-Master/Homepage.php
 
 *Use Google Chrome
+The code is modified from my friend: Liu Wei Han
