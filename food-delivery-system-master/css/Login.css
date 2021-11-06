@@ -1,0 +1,189 @@
+.login-page{
+    width:360px;
+    padding : 10% 0 0 ;
+    margin:auto;
+}
+
+.form{
+    position : relative;
+    z-index: 1;
+    background : black ;
+    max-width:360px;
+    margin: 0 auto 100px;
+    padding :30px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: white;
+    width:100%;
+    border:0;
+    margin:0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    
+    font-family: "Roboto",sans-serif;
+    text-transform :uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100% ;
+    border: 0 ;
+    padding : 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor:pointer;
+    
+}
+
+.form button:hover,.form button:active {
+    background : #43A047 ;
+}
+
+.form .message{
+    margin:15px 0 0 ;
+    color: #4CAF50;
+    font-size:20px;
+}
+
+.form .message a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.form .register-form
+{
+    display : none ;
+}
+
+h1
+{
+    color:white ;
+    font-size: 30px ;
+    font-family: "Roboto", sans-serif ; 
+    position : relative;
+    max-width:360px;
+    margin: 0 auto 10px;
+    padding-top :10px;
+    text-align: center;
+}
+
+p{
+    color : white ;
+}
+
+#{
+    margin:8px;
+    padding:0px;
+    box-sizing :border-box ;
+}
+
+.content
+{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/website-images/3.jpg);
+        background-size:cover;
+        background-position: center;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.logo a{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    cursor : pointer;
+    text-decoration: none;
+}
+
+.nav-links{
+    display:flex;
+    justify-content:space-around;
+    width: 40%;
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav ul li button {
+    
+    font-family: "Roboto",sans-serif;
+    text-transform :uppercase;
+    outline: 0 ;
+    background: #4CAF50;
+    width: 100% ;
+    border: 0 ;
+    padding : 7px;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.footer
+{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4
+{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.alert {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    height:50%;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.closebtn:hover {
+    color: black;
+}
+
+.hideclass {
+    display: none;
+}

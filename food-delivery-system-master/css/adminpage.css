@@ -1,0 +1,74 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .intro{
+    height: 100vh;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    list-style-position: inside;
+  }
+
+  .jumbotron{
+
+    background: rgba(179, 179, 179, 0.8);
+    
+  }
+
+  h1{
+    font-size: 60px;
+    color: black;
+    text-shadow: 0px 0px 2px #000;
+    font-family: 'Fanwood Text', serif;
+  }
+
+  .center-list{
+    padding-top: 30px;
+    width:800px;
+    margin:0 auto;
+    text-align:left;
+    color: white;
+    text-shadow: 3px 3px 10px #000;
+    font-size: 20px;
+  }
+
+}
